@@ -1,0 +1,20 @@
+Proceso sin_titulo
+	definir usuario Como Caracter;
+	definir password como caracter;
+	definir user como caracter;
+	definir contra como caracter;
+	escribir"dime el usuario";
+	leer usuario;
+	user<-"Miguel";
+	mientras usuario <> user Hacer
+		escribir" usuario incorrecto";
+		escribir"introduzca usuario";
+		leer usuario;
+	FinMientras
+	contra<-"gato";
+	repetir 
+		escribir"dime el password";
+		leer password;
+	hasta que password=contra
+	escribir"bienvenido";
+FinProceso
