@@ -4,37 +4,48 @@ Proceso sin_terminar
 	para i<-0 hasta 14 Hacer
 		si i=0 Entonces
 			para i<-0 hasta 14 hacer
-				marco[i,0]<-1;
-				escribir Sin Saltar marco[i,0];
-				escribir" ";
+				marco[0,i]<-1;
+				escribir Sin Saltar marco[0,i]; //parece que esta opcion es la buena
+				
 			FinPara
 		
 		FinSi
+	
 		
 		si i=1 Entonces
 			para i<-1 hasta 13 hacer
 				marco[i,0]<-0;
-				escribir sin saltar '1',marco[i,0],'1';
-				escribir" ";
+				escribir sin saltar '1',marco[1,i],'1';
+				
 			FinPara
 			
 		FinSi
 		si i=2 Entonces
 			para i<-1 hasta 13 hacer
 				marco[i,0]<-0;
-				escribir '1',marco[i,0],'1';
-				escribir" ";
+				escribir sin saltar '1',marco[2,i],'1';
+				
+			FinPara
+			
+		FinSi
+		
+		si i=3 Entonces
+			para i<-1 hasta 13 hacer
+				marco[i,0]<-0;
+				escribir sin saltar '1',marco[3,i],'1';
+				
 			FinPara
 			
 		FinSi
 		
 		si i=4 Entonces
-			para i<-1 hasta 13 hacer
-				marco[i,0]<-0;
-				escribir '1',marco[i,0],'1';
-				escribir" ";
+			para i<-0 hasta 14 hacer
+				marco[i,0]<-1;
+				escribir Sin Saltar marco[4,i];
+				
 			FinPara
-		finsi
+			
+		FinSi
 		
 		
 	FinPara
